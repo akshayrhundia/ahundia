@@ -40,6 +40,22 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+<script>
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script',
+			'https://www.google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-91650969-1', 'auto');
+	ga('send', 'pageview');
+</script>
 </head>
 
 <body id="page-top" class="index">
@@ -106,53 +122,61 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-4 portfolio-item">
-					<a href="#raModal" class="portfolio-link" data-toggle="modal">
-						<!--   <div class="caption">
+					<!--   <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div> -->
+					<div style="vertical-align: middle; text-align: center;">
+						<img src="resources/img/cmu.jpeg" class="img-responsive" alt=""
+							style="display: block; margin-left: auto; margin-right: auto;">
+						<br />
+						<p>
+							<a href="#raModal" class="portfolio-link" data-toggle="modal">
 
-						<center>
-							<img src="resources/img/cmu.jpeg" class="img-responsive" alt="">
-							<br />
-							<p>Research Assistant</p>
-							<a href="https://www.cylab.cmu.edu">Cylab</a>
-						</center>
+								Research Assistant </a>
+						</p>
 
-					</a>
+						<a href="https://www.cylab.cmu.edu">Cylab</a>
+					</div>
+
 				</div>
 				<div class="col-sm-4 portfolio-item">
-					<a href="#portfolioModal1" class="portfolio-link"
-						data-toggle="modal"> <!-- <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>-->
-						<center>
-							<img src="resources/img/cmu.jpeg" class="img-responsive" alt="">
-							<br />
-							<p>Teaching Assistant</p>
-							<a href="https://www.cylab.cmu.edu">Distributed Systems</a>
-						</center>
+					<div style="vertical-align: middle; text-align: center;">
+						<img src="resources/img/cmu.jpeg" class="img-responsive" alt=""
+							style="display: block; margin-left: auto; margin-right: auto;">
+						<br />
+						<p>
+							<a href="#tadModal" class="portfolio-link" data-toggle="modal">
 
-					</a>
+								Teaching Assistant </a>
+						</p>
+
+						<a
+							href="http://www.heinz.cmu.edu/academic-resources/course-results/course-details/index.aspx?cid=295">Distributed
+							Systems</a>
+					</div>
+
 				</div>
 				<div class="col-sm-4 portfolio-item">
-					<a href="#portfolioModal1" class="portfolio-link"
-						data-toggle="modal"> <!--  <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>-->
-						<center>
-							<img src="resources/img/cmu.jpeg" class="img-responsive" alt="">
-							<br />
-							<p>Teaching Assistant</p>
-							<a href="https://www.cylab.cmu.edu">Intermediate Java II</a>
-						</center>
 
-					</a>
+					<div style="vertical-align: middle; text-align: center;">
+						<img src="resources/img/cmu.jpeg" class="img-responsive" alt=""
+							style="display: block; margin-left: auto; margin-right: auto;">
+						<br />
+						<p>
+							<a href="#tajModal" class="portfolio-link" data-toggle="modal">
+
+								Teaching Assistant </a>
+						</p>
+
+						<a
+							href="http://www.heinz.cmu.edu/academic-resources/course-results/course-details/index.aspx?cid=302">Intermediate
+							Java II</a>
+					</div>
+
+
+
 				</div>
 
 			</div>
@@ -185,8 +209,11 @@
 					<p>Gandhinagar, GUJ (INDIA)</p>
 				</div>
 				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<a href="#" class="btn btn-lg btn-outline"> <i
-						class="fa fa-download"></i> Download Transcripts
+					<!-- <a href="resources/files/unofficial_academic_record-Fall.pdf" download class="btn btn-lg btn-outline"> <i
+						class="fa fa-download"></i> Download Unofficial Transcripts
+					</a> -->
+					<a href="resources/files/akshay-hundia.pdf" download class="btn btn-lg btn-outline"> <i
+						class="fa fa-download"></i> Download Resume
 					</a>
 				</div>
 			</div>
@@ -211,7 +238,7 @@
 								<p>Twitter Analytics Web Service</p>
 							</div>
 						</div> <img src="resources/img/twitter.png" class="img-responsive"
-						alt="">
+						alt="" style="display: block; margin-left: auto; margin-right: auto;">
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
@@ -221,7 +248,7 @@
 							<div class="caption-content">
 								<p>Parallel processing of large datasets</p>
 							</div>
-						</div> <img src="resources/img/kafka.png" class="img-responsive" alt="">
+						</div> <img src="resources/img/kafka.png" class="img-responsive" alt="" style="display: block; margin-left: auto; margin-right: auto;">
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
@@ -232,7 +259,7 @@
 								<p>Storage and Databases on the cloud</p>
 							</div>
 						</div> <img src="resources/img/database.png" class="img-responsive"
-						alt="">
+						alt="" >
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
@@ -449,7 +476,8 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
 					<!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-					<form name="sentMessage" id="contactForm" action="sendemail" novalidate>
+					<form name="sentMessage" id="contactForm" action="sendemail"
+						novalidate>
 						<div class="row control-group">
 							<div
 								class="form-group col-xs-12 floating-label-form-group controls">
@@ -463,8 +491,7 @@
 							<div
 								class="form-group col-xs-12 floating-label-form-group controls">
 								<label>Email Address</label> <input type="email"
-									class="form-control" placeholder="Email Address" id="email"
-									>
+									class="form-control" placeholder="Email Address" id="email">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
@@ -472,8 +499,7 @@
 							<div
 								class="form-group col-xs-12 floating-label-form-group controls">
 								<label>Phone Number</label> <input type="tel"
-									class="form-control" placeholder="Phone Number" id="phone"
-									>
+									class="form-control" placeholder="Phone Number" id="phone">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
@@ -482,7 +508,7 @@
 								class="form-group col-xs-12 floating-label-form-group controls">
 								<label>Message</label>
 								<textarea rows="5" class="form-control" placeholder="Message"
-									id="message" ></textarea>
+									id="message"></textarea>
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
@@ -494,18 +520,33 @@
 							</div>
 						</div>
 						<script>
-						document.getElementById("myBtn").addEventListener("click", function(){
-						    var msg=document.getElementById("name").value +","+
-						    + document.getElementById("phone").value+","+
-						    document.getElementById("email").value+","+
-						    document.getElementById("message").value;
-						    var xmlHttp = new XMLHttpRequest();
-						    xmlHttp.open( "GET", "sendemail?data="+msg, false ); // false for synchronous request
-						    xmlHttp.send( null );
-						    //alert( xmlHttp.responseText);
-						    alert("Your message has been sent to Akshay. Thanks for reaching.");
-						    location.reload();
-						});
+							document
+									.getElementById("myBtn")
+									.addEventListener(
+											"click",
+											function() {
+												var msg = document
+														.getElementById("name").value
+														+ ","
+														+ +document
+																.getElementById("phone").value
+														+ ","
+														+ document
+																.getElementById("email").value
+														+ ","
+														+ document
+																.getElementById("message").value;
+												var xmlHttp = new XMLHttpRequest();
+												xmlHttp
+														.open("GET",
+																"sendemail?data="
+																		+ msg,
+																false); // false for synchronous request
+												xmlHttp.send(null);
+												//alert( xmlHttp.responseText);
+												alert("Your message has been sent to Akshay. Thanks for reaching.");
+												location.reload();
+											});
 						</script>
 					</form>
 				</div>
@@ -600,6 +641,122 @@
 								</li>
 								<li>Service: <strong>Web Development & Data
 										Analytics </strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default"
+								data-dismiss="modal">
+								<i class="fa fa-times"></i> Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Portfolio Modals -->
+	<div class="portfolio-modal modal fade" id="tajModal" tabindex="-1"
+		role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Teaching Assistant</h2>
+							<h4>Intermediate Java-II</h4>
+							<h4>
+								<a
+									href="http://www.heinz.cmu.edu/academic-resources/course-results/course-details/index.aspx?cid=302">Carnegie
+									Mellon University</a>
+							</h4>
+							<hr class="star-primary">
+							<p>The focus of this mini is on problem solving using the
+								Java programming language. We will study such topics as Java's
+								object model, inheritance, polymorphism, error handling, event
+								handling, the Java I/O system, graphical user interfaces, the
+								JDK2 collection classes, multiple threads of control,
+								interfaces, inner classes, JDBC, network programming using
+								sockets and RMI.</p>
+							<p>Conduct weekly review sessions to help students in
+								grasping concepts.</p>
+							<p>Evaluate assignments and homework with detailed feedback
+								and uniform grading.</p>
+							<ul class="list-inline item-details">
+
+								<li>Start Date: <strong>August 2016 </strong>
+								</li>
+								<li>Service: <strong>Web Development & Object
+										Oriented Programming</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default"
+								data-dismiss="modal">
+								<i class="fa fa-times"></i> Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="tadModal" tabindex="-1"
+		role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Teaching Assistant</h2>
+							<h4>Distributed Systems</h4>
+							<h4>
+								<a
+									href="http://www.heinz.cmu.edu/academic-resources/course-results/course-details/index.aspx?cid=295">Carnegie
+									Mellon University</a>
+							</h4>
+							<hr class="star-primary">
+							<p>This course has three major objectives. First, it is
+								designed to introduce students to the principles underlying
+								distributed computing and the design of distributed systems.
+								Second, it aims to provide students with the opportunity to
+								exercise these principles in the context of real applications by
+								having the students use technologies such as XML, SOAP, Web
+								services, and JEE-based application servers. Finally, it seeks
+								to endow students with the capacity to analyze, design, evaluate
+								and recommend distributed computing solutions skills in response
+								to business problems.</p>
+							<ul>
+
+								<li>Distributed computing architectures: P2P, client server
+								</li>
+								<li>Inter-process communication</li>
+								<li>Distributed objects and remote invocation</li>
+								<li>Naming and Name services</li>
+								<li>Time and Global State Management</li>
+								<li>Transactions and Concurrency control</li>
+								<li>Distributed Transactions</li>
+							</ul>
+							<p>Conduct weekly lab sessions to help students in completing
+								projects and assignments.</p>
+							<p>Conduct weekly review sessions to help students in
+								grasping concepts.</p>
+							<p>Evaluate assignments and homework with detailed feedback
+								and uniform grading.</p>
+							<ul class="list-inline item-details">
+
+								<li>Start Date: <strong>January 2016 </strong>
+								</li>
+								<li>Service: <strong>Web Development & Distributed
+										Systems</strong>
 								</li>
 							</ul>
 							<button type="button" class="btn btn-default"

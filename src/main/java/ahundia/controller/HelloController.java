@@ -46,6 +46,14 @@ public class HelloController {
 	    public String getRobots(HttpServletRequest request) {
 	        return "robotsAllowed" ;
 	    }
+	 @RequestMapping(value = "/.well-known/acme-challenge/bfZHERlNPRm8fg1pHLNDQwNwmVYPL2u7kuspVykJ790", method = RequestMethod.GET)
+	    public String getHttpsWWW(HttpServletRequest request) {
+	        return "www" ;
+	    }
+	 @RequestMapping(value = "/.well-known/acme-challenge/6UBSlZes9nFacB1d8t0a0oMkUx0OqA_gV9M5SrreZ20", method = RequestMethod.GET)
+	    public String getHttps(HttpServletRequest request) {
+	        return "https" ;
+	    }
 	 @RequestMapping(value = "/sendemail", method = RequestMethod.GET)
 	 public String sendemail(HttpServletRequest request,String data,ModelMap model) {
 	 final String username = "akshayrhundia";
