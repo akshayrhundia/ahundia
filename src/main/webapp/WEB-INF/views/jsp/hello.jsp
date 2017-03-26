@@ -102,9 +102,11 @@
 					<img class="img-responsive" src="resources/img/my1.png" alt="">
 					<div class="intro-text">
 						<span class="name">Akshay Hundia</span>
+						<p><b>Software Engineer with 5 years of experience in designing and developing cutting edge products using Object Oriented Programming. An equally effective problem solver and entrepreneur experienced in creating technological solutions to solve real world issues.
+						</b></p>
 						<hr class="star-light">
-						<span class="skills">Cloud Service Developer - Full Stack
-							Expert - Analyst</span>
+						<span class="skills">Large scale systems Developer - Full
+								Stack Expert - Analyst</span>
 					</div>
 				</div>
 			</div>
@@ -175,8 +177,6 @@
 							Java II</a>
 					</div>
 
-
-
 				</div>
 
 			</div>
@@ -212,20 +212,53 @@
 					<!-- <a href="resources/files/unofficial_academic_record-Fall.pdf" download class="btn btn-lg btn-outline"> <i
 						class="fa fa-download"></i> Download Unofficial Transcripts
 					</a> -->
-					<a href="resources/files/akshay-hundia.pdf" download class="btn btn-lg btn-outline"> <i
-						class="fa fa-download"></i> Download Resume
+					<a href="resources/files/akshay-hundia.pdf" download
+						class="btn btn-lg btn-outline"> <i class="fa fa-download"></i>
+						Download Resume
 					</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	
+
 	<!-- Portfolio Grid Section -->
 	<section id="portfolio">
-		<div class="container">
+	<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h2>Academic Projects</h2>
+					<hr class="star-primary">
+					<h3>Capstone</h3>
+					<div class="col-sm-4 portfolio-item"></div>
+					<div class="col-sm-4 portfolio-item">
+					<a href="#capModal" class="portfolio-link"
+						data-toggle="modal" > <div class="caption">
+                            <div class="caption-content">
+                            	Kent Parker Media platform
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> <img src="resources/img/kp.png"
+						class="img-responsive" alt="" style="height:280px;width:400px;display: block; margin-left: auto; margin-right: auto;">
+						<h4>Kent Parker</h4>
+						<p> Chief Technology Architect</p>
+					</a>
+					
+					
+				</div>
+				<div class="col-sm-4 portfolio-item"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 portfolio-item">
+				
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
 					<hr class="star-primary">
 				</div>
 			</div>
@@ -235,20 +268,25 @@
 						data-toggle="modal">
 						<div class="caption">
 							<div class="caption-content">
-								<p>Twitter Analytics Web Service</p>
+								<p>Distributed Data Center</p>
 							</div>
-						</div> <img src="resources/img/twitter.png" class="img-responsive"
-						alt="" style="display: block; margin-left: auto; margin-right: auto;">
+						</div> <img src="resources/img/replication.svg" class="img-responsive"
+						alt=""
+						style="height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;">
+						<h5 style="text-align:center;">Distributed Data Center</h5>
 					</a>
+					
 				</div>
 				<div class="col-sm-4 portfolio-item">
 					<a href="#portfolioModal2" class="portfolio-link"
 						data-toggle="modal">
 						<div class="caption">
 							<div class="caption-content">
-								<p>Parallel processing of large datasets</p>
+								<p>PittCabs: Real-time transit and Dynamic pricing</p>
 							</div>
-						</div> <img src="resources/img/kafka.png" class="img-responsive" alt="" style="display: block; margin-left: auto; margin-right: auto;">
+						</div> <img src="resources/img/kafka.png" class="img-responsive" alt=""
+						style="height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;">
+						<h5 style="text-align:center;">PittCabs</h5>
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
@@ -259,7 +297,8 @@
 								<p>Storage and Databases on the cloud</p>
 							</div>
 						</div> <img src="resources/img/database.png" class="img-responsive"
-						alt="" >
+						alt="" style="height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;">
+						<h5 style="text-align:center;">Storage and Databases</h5>
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
@@ -267,9 +306,10 @@
 						data-toggle="modal">
 						<div class="caption">
 							<div class="caption-content">
-								<p>Behavior due to online advertizements</p>
+								<p>Fast interactive web services</p>
 							</div>
-						</div> <img src="resources/img/ads.jpg" class="img-responsive" alt="">
+						</div> <img src="resources/img/webservices.png" class="img-responsive" alt=""style="height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;">
+						<h5 style="text-align:center;">Fast interactive web services</h5>
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
@@ -280,7 +320,8 @@
 								<p>Big Data Analytics</p>
 							</div>
 						</div> <img src="resources/img/big-data.png" class="img-responsive"
-						alt="">
+						alt="" style="height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;">
+						<h5 style="text-align:center;">Big Data Analytics</h5>
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
@@ -290,7 +331,8 @@
 							<div class="caption-content">
 								<p>Marketing Analytics</p>
 							</div>
-						</div> <img src="resources/img/ma.jpg" class="img-responsive" alt="">
+						</div> <img src="resources/img/ma.jpg" class="img-responsive" alt="" style="height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;">
+						<h5 style="text-align:center;">Marketing Analytics</h5>
 					</a>
 				</div>
 			</div>
@@ -364,14 +406,14 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4 portfolio-item">
+				<!-- <div class="col-sm-4 portfolio-item">
 					<a href="#portfolioModal6" class="portfolio-link"
 						data-toggle="modal"> <!-- <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
-                        </div> --> <img src="resources/img/cmuj.png"
-						class="img-responsive" alt="">
+                        </div> <img src="resources/img/cmuj.png"
+						class="img-responsive" alt="" height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;>
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
@@ -380,53 +422,83 @@
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
-                        </div>--> <img src="resources/img/sf.png"
-						class="img-responsive" alt="">
+                        </div> <img src="resources/img/sf.png"
+						class="img-responsive" alt="" height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;>
 					</a>
-				</div>
+				</div> -->
 				<div class="col-sm-4 portfolio-item">
-					<a href="#portfolioModal2" class="portfolio-link"
+					<a href="#samModal" class="portfolio-link"
 						data-toggle="modal"> <!-- <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>--> <img src="resources/img/samsung.jpg"
-						class="img-responsive" alt="">
+						class="img-responsive" alt="" style="height:130px;width:300px;display: block; margin-left: auto; margin-right: auto;"/>
 					</a>
+							<h4 style="text-align:center;">Lead Engineer</h4>
+				
 				</div>
 				<div class="col-sm-4 portfolio-item">
-					<a href="#portfolioModal3" class="portfolio-link"
+					<a href="#hpeModal" class="portfolio-link"
 						data-toggle="modal"> <!-- <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>--> <img src="resources/img/hpe.jpg"
-						class="img-responsive" alt="">
+						class="img-responsive" alt="" style="height:130px;width:300px;display: block; margin-left: auto; margin-right: auto;">
 					</a>
+							<h4 style="text-align:center;">Software Engineer II</h4>
+				
 				</div>
 				<div class="col-sm-4 portfolio-item">
-					<a href="#portfolioModal4" class="portfolio-link"
+					<a href="#miModal" class="portfolio-link"
 						data-toggle="modal"> <!-- <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>--> <img src="resources/img/mi.jpeg"
-						class="img-responsive" alt="">
+						class="img-responsive" alt="" style="height:130px;width:300px;display: block; margin-left: auto; margin-right: auto;">
 					</a>
+							<h4 style="text-align:center;">Engineer II, MFG-IT</h4>
+				
 				</div>
-				<div class="col-sm-4 portfolio-item">
+				<!-- <div class="col-sm-4 portfolio-item">
 					<a href="#portfolioModal5" class="portfolio-link"
 						data-toggle="modal"> <!--<div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
-                        </div>--> <img src="resources/img/da.jpg"
-						class="img-responsive" alt="">
+                        </div> <img src="resources/img/da.jpg"
+						class="img-responsive" alt="" height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;>
 					</a>
-				</div>
+				</div> -->
 
 			</div>
+			
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h3><u>Entrepreneur</u></h3>
+				</div>
+			</div>
+			<div class="row">
+			<div class="col-sm-4 portfolio-item"></div>
+				<div class="col-sm-4 portfolio-item">
+					<a href="#portfolioModal1" class="portfolio-link"
+						data-toggle="modal"> <!-- <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> --><img src="resources/img/sf.png"
+						class="img-responsive" alt="" style="height:200px;width:300px;display: block; margin-left: auto; margin-right: auto;">
+					</a>
+							<h4 style="text-align:center;">Chief Technology Officer</h4>
+				
+				</div> 
+			<div class="col-sm-4 portfolio-item"></div>
+			</div>
 		</div>
+	</div>
 	</section>
 
 	<!-- About Section -->
@@ -704,6 +776,73 @@
 			</div>
 		</div>
 	</div>
+	
+	<!-- Portfolio Modals -->
+	<div class="portfolio-modal modal fade" id="capModal" tabindex="-1"
+		role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Kent Parker Media Platform</h2>
+							<h4>Capstone</h4>
+							<h4>
+								<a
+									href="http://www.heinz.cmu.edu/academic-resources/course-results/course-details/index.aspx?cid=302">Carnegie
+									Mellon University</a>
+							</h4>
+							<hr class="star-primary">
+							<p>Kent Parker is a media tool that allows journalists to search for stories based on their categories.
+
+It also allows companies and organizations and individuals with newsworthy news to share.</p>
+								
+					<p>	Features developed:</p>
+<ul style="text-align:left;">
+<li> It allows newsmakers and media outlets to connect.</li>
+
+<li> The right journalists connect with the right newsmakers.</li>
+
+<li> It is a social media platform specifically for newsworthy content.</li> 
+
+<li> Ethics are the foundation of our platform. </li>
+
+<li> Newsmakers and media outlets and journalists can give feedback to each other on a five-point scale.</li> 
+
+<li> New organizations are able to build a media plan, which encompasses all news outlets from community papers to top media outlets.</li>
+
+<li> Members are able to maintain connections with journalists regardless of a change of employment or career. </li>
+
+<li> The fray that exists on other platforms does not live on Kent Parker.</li>
+
+<li> Kent Parker allows a newsmaker to track and document their media archives.</li> 
+
+<li> Kent Parker increases transparency by allowing all visitors to the website, members and non-members to view the initial pitches and the resulting news stories.</li> 
+</ul>							
+							<ul class="list-inline item-details">
+
+								<li>Start Date: <strong>January 2017 </strong>
+								</li>
+								<li>Service: <strong>Design platform, Web Development, Object
+										Oriented Programming</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default"
+								data-dismiss="modal">
+								<i class="fa fa-times"></i> Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 	<div class="portfolio-modal modal fade" id="tadModal" tabindex="-1"
 		role="dialog" aria-hidden="true">
 		<div class="modal-content">
@@ -757,6 +896,141 @@
 								</li>
 								<li>Service: <strong>Web Development & Distributed
 										Systems</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default"
+								data-dismiss="modal">
+								<i class="fa fa-times"></i> Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="portfolio-modal modal fade" id="samModal" tabindex="-1"
+		role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Lead Engineer</h2>
+							<h4>
+								<a
+									href="http://www.samsung.com/in/aboutsamsung/samsungelectronics/india/rnd/">Samsung R&D Institute</a>
+							</h4>
+							<hr class="star-primary">
+							<p>Implemented web services to send personalized ads as quick access links to Samsung mobile browsers for better user engagement.</p>
+<p>Refactored the design of Quick Access APIs to improve its throughput from Samsung browser & to enable better tracking of users.</p>
+							
+							<ul class="list-inline item-details">
+
+								<li>Start Date: <strong>April 2016 </strong>
+								</li>
+								<li>End Date: <strong>May 2016 </strong>
+								</li>
+								<li>Service: <strong>Web Development, Distributed
+										Systems & Mobile</strong>
+								</li>
+								<li>Skills: <strong>Java Spring and Hibernate, NodeJS, MySQL, Mongo DB, Python, Git, Gerrit, Jenkins</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default"
+								data-dismiss="modal">
+								<i class="fa fa-times"></i> Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="portfolio-modal modal fade" id="hpeModal" tabindex="-1"
+		role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Software Engineer II</h2>
+							<h4>
+								<a
+									href="https://www.hpe.com/us/en/home.html">Hewlett-Packard Enterprise R&D labs</a>
+							</h4>
+							<hr class="star-primary">
+							<p>Implemented platform APIs for HP Oneview, which enabled clients and partners to control the configuration of blade servers.</p>
+<p>Devised Linux and Python scripts to ensure replication of data over the nodes which helped in making the system highly available.
+</p>
+							
+							<ul class="list-inline item-details">
+
+								<li>Start Date: <strong>May 2015 </strong>
+								</li>
+								<li>End Date: <strong>March 2016 </strong>
+								</li>
+								<li>Service: <strong>Web Development, Distributed
+										Systems & Data Center</strong>
+								</li>
+								<li>Skills: <strong>Java Spring and Hibernate, PostgreSQL, Python, Shell scripts, JavaScript, HTML, Kafka</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default"
+								data-dismiss="modal">
+								<i class="fa fa-times"></i> Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="portfolio-modal modal fade" id="miModal" tabindex="-1"
+		role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Engineer-II, MFG-IT</h2>
+							<h4>
+								<a
+									href="https://www.maximintegrated.com">Maxim Integrated</a>
+							</h4>
+							<hr class="star-primary">
+							<p>Introduced Agile framework and collaborated with stakeholders as the Scrum Master, reducing the project delivery time by 10%.</p>
+<p>	Implemented a Factory Automation Suite comprising of a cloud based master engine controlling & managing slave applications.</p>
+<p>Devised custom ETL scripts for the cleansing and validation of the data, which reduced the loading errors by 13%.
+</p>
+							
+							<ul class="list-inline item-details">
+
+								<li>Start Date: <strong>June 2011 </strong>
+								</li>
+								<li>End Date: <strong>April 2015 </strong>
+								</li>
+								<li>Service: <strong>Web Development & Distributed
+										Systems</strong>
+								</li>
+								<li>Skills: <strong>Java, REST, Oracle, Python, Shell scripts, JavaScript, HTML, ActiveMQ, SVN</strong>
 								</li>
 							</ul>
 							<button type="button" class="btn btn-default"
