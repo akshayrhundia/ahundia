@@ -105,8 +105,8 @@
 						<p><b>Software Engineer with 5 years of experience in designing and developing cutting edge products using Object Oriented Programming. An equally effective problem solver and entrepreneur experienced in creating technological solutions to solve real world issues.
 						</b></p>
 						<hr class="star-light">
-						<span class="skills">Large scale systems Developer - Full
-								Stack Expert - Analyst</span>
+						<span class="skills">Product developer & Back-end expert</span>
+						<p>Cloud and Distributed Systems</p>
 					</div>
 				</div>
 			</div>
