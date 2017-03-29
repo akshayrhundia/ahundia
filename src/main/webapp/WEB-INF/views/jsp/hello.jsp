@@ -102,8 +102,13 @@
 					<img class="img-responsive" src="resources/img/my1.png" alt="">
 					<div class="intro-text">
 						<span class="name">Akshay Hundia</span>
-						<p><b>Software Engineer with 5 years of experience in designing and developing cutting edge products using Object Oriented Programming. An equally effective problem solver and entrepreneur experienced in creating technological solutions to solve real world issues.
-						</b></p>
+						<p>
+							<b>Software Engineer with 5 years of experience in designing
+								and developing cutting edge products using Object Oriented
+								Programming. An equally effective problem solver and
+								entrepreneur experienced in creating technological solutions to
+								solve real world issues. </b>
+						</p>
 						<hr class="star-light">
 						<span class="skills">Product developer & Back-end expert</span>
 						<p>Cloud and Distributed Systems</p>
@@ -221,11 +226,11 @@
 		</div>
 	</section>
 
-	
+
 
 	<!-- Portfolio Grid Section -->
 	<section id="portfolio">
-	<div class="container">
+		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h2>Academic Projects</h2>
@@ -233,27 +238,24 @@
 					<h3>Capstone</h3>
 					<div class="col-sm-4 portfolio-item"></div>
 					<div class="col-sm-4 portfolio-item">
-					<a href="#capModal" class="portfolio-link"
-						data-toggle="modal" > <div class="caption">
-                            <div class="caption-content">
-                            	Kent Parker Media platform
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div> <img src="resources/img/kp.png"
-						class="img-responsive" alt="" style="height:280px;width:400px;display: block; margin-left: auto; margin-right: auto;">
-						<h4>Kent Parker</h4>
-						<p> Chief Technology Architect</p>
-					</a>
-					
-					
-				</div>
-				<div class="col-sm-4 portfolio-item"></div>
+						<a href="#capModal" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									Kent Parker Media platform <i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div> <img src="resources/img/kp.png" class="img-responsive" alt=""
+							style="height: 280px; width: 400px; display: block; margin-left: auto; margin-right: auto;">
+							<h4>Kent Parker</h4>
+							<p>Chief Technology Architect</p>
+						</a>
+
+
+					</div>
+					<div class="col-sm-4 portfolio-item"></div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4 portfolio-item">
-				
-				</div>
+				<div class="col-sm-4 portfolio-item"></div>
 			</div>
 		</div>
 		<div class="container">
@@ -264,41 +266,40 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-4 portfolio-item">
-					<a href="#portfolioModal1" class="portfolio-link"
-						data-toggle="modal">
+					<a href="#ddcModal" class="portfolio-link" data-toggle="modal">
 						<div class="caption">
 							<div class="caption-content">
 								<p>Distributed Data Center</p>
 							</div>
 						</div> <img src="resources/img/replication.svg" class="img-responsive"
 						alt=""
-						style="height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;">
-						<h5 style="text-align:center;">Distributed Data Center</h5>
+						style="height: 230px; width: 400px; display: block; margin-left: auto; margin-right: auto;">
+						<h5 style="text-align: center;">Distributed Data Center</h5>
 					</a>
-					
+
 				</div>
 				<div class="col-sm-4 portfolio-item">
-					<a href="#portfolioModal2" class="portfolio-link"
-						data-toggle="modal">
+					<a href="#pittModal" class="portfolio-link" data-toggle="modal">
 						<div class="caption">
 							<div class="caption-content">
 								<p>PittCabs: Real-time transit and Dynamic pricing</p>
 							</div>
 						</div> <img src="resources/img/kafka.png" class="img-responsive" alt=""
-						style="height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;">
-						<h5 style="text-align:center;">PittCabs</h5>
+						style="height: 230px; width: 400px; display: block; margin-left: auto; margin-right: auto;">
+						<h5 style="text-align: center;">PittCabs</h5>
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
-					<a href="#portfolioModal3" class="portfolio-link"
+					<a href="#docModal" class="portfolio-link"
 						data-toggle="modal">
 						<div class="caption">
 							<div class="caption-content">
-								<p>Storage and Databases on the cloud</p>
+								<p>Docker containerized web service</p>
 							</div>
 						</div> <img src="resources/img/database.png" class="img-responsive"
-						alt="" style="height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;">
-						<h5 style="text-align:center;">Storage and Databases</h5>
+						alt=""
+						style="height: 230px; width: 400px; display: block; margin-left: auto; margin-right: auto;">
+						<h5 style="text-align: center;">Storage and Databases</h5>
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
@@ -308,8 +309,10 @@
 							<div class="caption-content">
 								<p>Fast interactive web services</p>
 							</div>
-						</div> <img src="resources/img/webservices.png" class="img-responsive" alt=""style="height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;">
-						<h5 style="text-align:center;">Fast interactive web services</h5>
+						</div> <img src="resources/img/webservices.png" class="img-responsive"
+						alt=""
+						style="height: 230px; width: 400px; display: block; margin-left: auto; margin-right: auto;">
+						<h5 style="text-align: center;">Fast interactive web services</h5>
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
@@ -320,8 +323,9 @@
 								<p>Big Data Analytics</p>
 							</div>
 						</div> <img src="resources/img/big-data.png" class="img-responsive"
-						alt="" style="height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;">
-						<h5 style="text-align:center;">Big Data Analytics</h5>
+						alt=""
+						style="height: 230px; width: 400px; display: block; margin-left: auto; margin-right: auto;">
+						<h5 style="text-align: center;">Big Data Analytics</h5>
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
@@ -331,8 +335,9 @@
 							<div class="caption-content">
 								<p>Marketing Analytics</p>
 							</div>
-						</div> <img src="resources/img/ma.jpg" class="img-responsive" alt="" style="height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;">
-						<h5 style="text-align:center;">Marketing Analytics</h5>
+						</div> <img src="resources/img/ma.jpg" class="img-responsive" alt=""
+						style="height: 230px; width: 400px; display: block; margin-left: auto; margin-right: auto;">
+						<h5 style="text-align: center;">Marketing Analytics</h5>
 					</a>
 				</div>
 			</div>
@@ -427,40 +432,43 @@
 					</a>
 				</div> -->
 				<div class="col-sm-4 portfolio-item">
-					<a href="#samModal" class="portfolio-link"
-						data-toggle="modal"> <!-- <div class="caption">
+					<a href="#samModal" class="portfolio-link" data-toggle="modal">
+						<!-- <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>--> <img src="resources/img/samsung.jpg"
-						class="img-responsive" alt="" style="height:130px;width:300px;display: block; margin-left: auto; margin-right: auto;"/>
+						class="img-responsive" alt=""
+						style="height: 130px; width: 300px; display: block; margin-left: auto; margin-right: auto;" />
 					</a>
-							<h4 style="text-align:center;">Lead Engineer</h4>
-				
+					<h4 style="text-align: center;">Lead Engineer</h4>
+
 				</div>
 				<div class="col-sm-4 portfolio-item">
-					<a href="#hpeModal" class="portfolio-link"
-						data-toggle="modal"> <!-- <div class="caption">
+					<a href="#hpeModal" class="portfolio-link" data-toggle="modal">
+						<!-- <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>--> <img src="resources/img/hpe.jpg"
-						class="img-responsive" alt="" style="height:130px;width:300px;display: block; margin-left: auto; margin-right: auto;">
+						class="img-responsive" alt=""
+						style="height: 130px; width: 300px; display: block; margin-left: auto; margin-right: auto;">
 					</a>
-							<h4 style="text-align:center;">Software Engineer II</h4>
-				
+					<h4 style="text-align: center;">Software Engineer II</h4>
+
 				</div>
 				<div class="col-sm-4 portfolio-item">
-					<a href="#miModal" class="portfolio-link"
-						data-toggle="modal"> <!-- <div class="caption">
+					<a href="#miModal" class="portfolio-link" data-toggle="modal">
+						<!-- <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>--> <img src="resources/img/mi.jpeg"
-						class="img-responsive" alt="" style="height:130px;width:300px;display: block; margin-left: auto; margin-right: auto;">
+						class="img-responsive" alt=""
+						style="height: 130px; width: 300px; display: block; margin-left: auto; margin-right: auto;">
 					</a>
-							<h4 style="text-align:center;">Engineer II, MFG-IT</h4>
-				
+					<h4 style="text-align: center;">Engineer II, MFG-IT</h4>
+
 				</div>
 				<!-- <div class="col-sm-4 portfolio-item">
 					<a href="#portfolioModal5" class="portfolio-link"
@@ -474,31 +482,34 @@
 				</div> -->
 
 			</div>
-			
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<h3><u>Entrepreneur</u></h3>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h3>
+							<u>Entrepreneur</u>
+						</h3>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-			<div class="col-sm-4 portfolio-item"></div>
-				<div class="col-sm-4 portfolio-item">
-					<a href="#portfolioModal1" class="portfolio-link"
-						data-toggle="modal"> <!-- <div class="caption">
+				<div class="row">
+					<div class="col-sm-4 portfolio-item"></div>
+					<div class="col-sm-4 portfolio-item">
+						<a href="#portfolioModal1" class="portfolio-link"
+							data-toggle="modal"> <!-- <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
-                        </div> --><img src="resources/img/sf.png"
-						class="img-responsive" alt="" style="height:200px;width:300px;display: block; margin-left: auto; margin-right: auto;">
-					</a>
-							<h4 style="text-align:center;">Chief Technology Officer</h4>
-				
-				</div> 
-			<div class="col-sm-4 portfolio-item"></div>
+                        </div> --> <img src="resources/img/sf.png"
+							class="img-responsive" alt=""
+							style="height: 200px; width: 300px; display: block; margin-left: auto; margin-right: auto;">
+						</a>
+						<h4 style="text-align: center;">Chief Technology Officer</h4>
+
+					</div>
+					<div class="col-sm-4 portfolio-item"></div>
+				</div>
 			</div>
 		</div>
-	</div>
 	</section>
 
 	<!-- About Section -->
@@ -776,7 +787,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- Portfolio Modals -->
 	<div class="portfolio-modal modal fade" id="capModal" tabindex="-1"
 		role="dialog" aria-hidden="true">
@@ -798,38 +809,49 @@
 									Mellon University</a>
 							</h4>
 							<hr class="star-primary">
-							<p>Kent Parker is a media tool that allows journalists to search for stories based on their categories.
+							<p>Kent Parker is a media tool that allows journalists to
+								search for stories based on their categories. It also allows
+								companies and organizations and individuals with newsworthy news
+								to share.</p>
 
-It also allows companies and organizations and individuals with newsworthy news to share.</p>
-								
-					<p>	Features developed:</p>
-<ul style="text-align:left;">
-<li> It allows newsmakers and media outlets to connect.</li>
+							<p>Features developed:</p>
+							<ul style="text-align: left;">
+								<li>It allows newsmakers and media outlets to connect.</li>
 
-<li> The right journalists connect with the right newsmakers.</li>
+								<li>The right journalists connect with the right
+									newsmakers.</li>
 
-<li> It is a social media platform specifically for newsworthy content.</li> 
+								<li>It is a social media platform specifically for
+									newsworthy content.</li>
 
-<li> Ethics are the foundation of our platform. </li>
+								<li>Ethics are the foundation of our platform.</li>
 
-<li> Newsmakers and media outlets and journalists can give feedback to each other on a five-point scale.</li> 
+								<li>Newsmakers and media outlets and journalists can give
+									feedback to each other on a five-point scale.</li>
 
-<li> New organizations are able to build a media plan, which encompasses all news outlets from community papers to top media outlets.</li>
+								<li>New organizations are able to build a media plan, which
+									encompasses all news outlets from community papers to top media
+									outlets.</li>
 
-<li> Members are able to maintain connections with journalists regardless of a change of employment or career. </li>
+								<li>Members are able to maintain connections with
+									journalists regardless of a change of employment or career.</li>
 
-<li> The fray that exists on other platforms does not live on Kent Parker.</li>
+								<li>The fray that exists on other platforms does not live
+									on Kent Parker.</li>
 
-<li> Kent Parker allows a newsmaker to track and document their media archives.</li> 
+								<li>Kent Parker allows a newsmaker to track and document
+									their media archives.</li>
 
-<li> Kent Parker increases transparency by allowing all visitors to the website, members and non-members to view the initial pitches and the resulting news stories.</li> 
-</ul>							
+								<li>Kent Parker increases transparency by allowing all
+									visitors to the website, members and non-members to view the
+									initial pitches and the resulting news stories.</li>
+							</ul>
 							<ul class="list-inline item-details">
 
 								<li>Start Date: <strong>January 2017 </strong>
 								</li>
-								<li>Service: <strong>Design platform, Web Development, Object
-										Oriented Programming</strong>
+								<li>Service: <strong>Design platform, Web
+										Development, Object Oriented Programming</strong>
 								</li>
 							</ul>
 							<button type="button" class="btn btn-default"
@@ -842,7 +864,7 @@ It also allows companies and organizations and individuals with newsworthy news 
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="portfolio-modal modal fade" id="tadModal" tabindex="-1"
 		role="dialog" aria-hidden="true">
 		<div class="modal-content">
@@ -874,7 +896,6 @@ It also allows companies and organizations and individuals with newsworthy news 
 								and recommend distributed computing solutions skills in response
 								to business problems.</p>
 							<ul>
-
 								<li>Distributed computing architectures: P2P, client server
 								</li>
 								<li>Inter-process communication</li>
@@ -908,10 +929,206 @@ It also allows companies and organizations and individuals with newsworthy news 
 			</div>
 		</div>
 	</div>
-	
-	<div class="portfolio-modal modal fade" id="samModal" tabindex="-1"
+
+	<div class="portfolio-modal modal fade" id="ddcModal" tabindex="-1"
 		role="dialog" aria-hidden="true">
 		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Distributed Data center</h2>
+							<h4>Cloud computing</h4>
+							<h4>
+								<img src="resources/img/kv_storage.png"
+									class="img-responsive img-centered" alt="">
+							</h4>
+							<hr class="star-primary">
+							<p>Storing, processing and analyzing this data is an enormous
+								challenge and has long surpassed the storage, memory and
+								computing capabilities of a single machine. We require
+								distributed, scalable data storage systems to handle this
+								big-data challenge. While there are many types of distributed
+								databases and storage systems, in this project we will focus on
+								distributed key-value store, a commonly adopted solution for
+								scaling up data storage. These key-value stores are considered
+								to be a type of NoSQL storage system, as they do not have full
+								relational capabilities of systems such as MySQL, which you
+								explored in a previous project.</p>
+							<ul style="text-align: left;">
+
+								<li>Describe the motivation and design space for
+									distributed key-value stores.</li>
+								<li>Compare and contrast the advantages and disadvantages
+									of using replication in distributed key-value stores.</li>
+								<li>Extend a distributed key-value store with replication
+									schemes.</li>
+								<li>Discuss the various levels of consistency that can
+									employed in a distributed data store.</li>
+								<li>Implement and evaluate strong consistency and eventual
+									consistency models for a distributed key-value store.</li>
+								<li>Compare the various trade-offs that exist in using
+									different levels of consistency.</li>
+								<li>Explore the advantages and disadvantages of replicating
+									over different geographical locations.</li>
+								<li>Distributed computing architectures: P2P, client server</li>
+
+							</ul>
+
+							<ul class="list-inline item-details">
+
+								<li>Start Date: <strong>August 2016 </strong>
+								<li>End Date: <strong>October 2016 </strong>
+								</li>
+								<li>Service: <strong>Multi-Threading, Consistency
+										& Distributed Systems</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default"
+								data-dismiss="modal">
+								<i class="fa fa-times"></i> Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="portfolio-modal modal fade" id="pittModal" tabindex="-1"
+		role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>PittCabs: Real-time transit and Dynamic pricing</h2>
+							<h4>Cloud computing</h4>
+							<h4>
+								<img src="resources/img/Task1.jpg"
+									class="img-responsive img-centered" alt="">
+							</h4>
+							<hr class="star-primary">
+							<p>Recently there has been an increased interest in real-time
+								data. Sources include sensor data (primarily due to the
+								explosion of Internet of Things (IoT) devices), social network
+								interactions and business critical data generated in real time.
+								These events need to be processed with extremely low latency, in
+								the order of seconds, failing which the company loses its
+								competitive edge in the market.</p>
+							<p>This is where stream processing systems come in, having
+								specifically been designed to process billions of events
+								everyday with low latency. Apache Kafka and Apache Samza are two
+								such systems which enable processing a stream of data in
+								real-time (with low latency).</p>
+							<ul style="text-align: left;">
+								<li>Scenarios where stream processing is the preferred
+									model.</li>
+								<li>Fault tolerance and high performance mechanisms
+									employed in streaming frameworks.</li>
+								<li>Kafka and Samza integrate together to achieve
+									fault-tolerance.</li>
+								<li>Generated a stream of data using Kafka and made it
+									available for a Samza consumer.</li>
+								<li>Designed and implemented a solution to join and process
+									multiple streams of GPS data using the Samza API to enabled a
+									driver matching service like Uber.</li>
+							</ul>
+
+							<ul class="list-inline item-details">
+
+								<li>Start Date: <strong>November 2016 </strong>
+								<li>End Date: <strong>December 2016 </strong>
+								</li>
+								<li>Service: <strong>Stream Processing &
+										Distributed Systems</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default"
+								data-dismiss="modal">
+								<i class="fa fa-times"></i> Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="docModal" tabindex="-1"
+		role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Docker containerized web service</h2>
+							<h4>Cloud computing</h4>
+							<h4>
+								<img src="resources/img/docker.png"
+									class="img-responsive img-centered" alt="">
+							</h4>
+							<hr class="star-primary">
+							<p>Recently there has been an increased interest in real-time
+								data. Sources include sensor data (primarily due to the
+								explosion of Internet of Things (IoT) devices), social network
+								interactions and business critical data generated in real time.
+								These events need to be processed with extremely low latency, in
+								the order of seconds, failing which the company loses its
+								competitive edge in the market.</p>
+							<p>This is where stream processing systems come in, having
+								specifically been designed to process billions of events
+								everyday with low latency. Apache Kafka and Apache Samza are two
+								such systems which enable processing a stream of data in
+								real-time (with low latency).</p>
+							<ul style="text-align: left;">
+								<li>Compared containers with VMs with respect
+									to design, performance, security, deployment, and portability.</li>
+								<li>Containers communicating with each other and
+									with the host machine.</li>
+								<li>Created, implemented, and deployed containerized
+									applications on a cloud service.</li>
+								<li>Manageed automatic deployment of containers using Amazon
+									ECS, and these techniques can be used to architect
+									a web application which can automatically scale based on load.</li>
+							</ul>
+
+							<ul class="list-inline item-details">
+
+								<li>Start Date: <strong>September 2016 </strong>
+									<li>End Date: <strong>October 2016 </strong>
+								</li>
+								<li>Service: <strong>Docker, Container, Scaling &
+										Distributed Systems</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default"
+								data-dismiss="modal">
+								<i class="fa fa-times"></i> Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="samModal"
+										tabindex="-1" role="dialog" aria-hidden="true">
+										<div class="modal-content">
 			<div class="close-modal" data-dismiss="modal">
 				<div class="lr">
 					<div class="rl"></div>
@@ -924,12 +1141,17 @@ It also allows companies and organizations and individuals with newsworthy news 
 							<h2>Lead Engineer</h2>
 							<h4>
 								<a
-									href="http://www.samsung.com/in/aboutsamsung/samsungelectronics/india/rnd/">Samsung R&D Institute</a>
+																	href="http://www.samsung.com/in/aboutsamsung/samsungelectronics/india/rnd/">Samsung
+									R&D Institute</a>
 							</h4>
 							<hr class="star-primary">
-							<p>Implemented web services to send personalized ads as quick access links to Samsung mobile browsers for better user engagement.</p>
-<p>Refactored the design of Quick Access APIs to improve its throughput from Samsung browser & to enable better tracking of users.</p>
-							
+							<p>Implemented web services to send personalized ads as quick
+								access links to Samsung mobile browsers for better user
+								engagement.</p>
+							<p>Refactored the design of Quick Access APIs to improve its
+								throughput from Samsung browser & to enable better tracking of
+								users.</p>
+
 							<ul class="list-inline item-details">
 
 								<li>Start Date: <strong>April 2016 </strong>
@@ -939,11 +1161,12 @@ It also allows companies and organizations and individuals with newsworthy news 
 								<li>Service: <strong>Web Development, Distributed
 										Systems & Mobile</strong>
 								</li>
-								<li>Skills: <strong>Java Spring and Hibernate, NodeJS, MySQL, Mongo DB, Python, Git, Gerrit, Jenkins</strong>
+								<li>Skills: <strong>Java Spring and Hibernate,
+										NodeJS, MySQL, Mongo DB, Python, Git, Gerrit, Jenkins</strong>
 								</li>
 							</ul>
 							<button type="button" class="btn btn-default"
-								data-dismiss="modal">
+																data-dismiss="modal">
 								<i class="fa fa-times"></i> Close
 							</button>
 						</div>
@@ -952,9 +1175,9 @@ It also allows companies and organizations and individuals with newsworthy news 
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="portfolio-modal modal fade" id="hpeModal" tabindex="-1"
-		role="dialog" aria-hidden="true">
+										role="dialog" aria-hidden="true">
 		<div class="modal-content">
 			<div class="close-modal" data-dismiss="modal">
 				<div class="lr">
@@ -967,14 +1190,17 @@ It also allows companies and organizations and individuals with newsworthy news 
 						<div class="modal-body">
 							<h2>Software Engineer II</h2>
 							<h4>
-								<a
-									href="https://www.hpe.com/us/en/home.html">Hewlett-Packard Enterprise R&D labs</a>
+								<a href="https://www.hpe.com/us/en/home.html">Hewlett-Packard
+									Enterprise R&D labs</a>
 							</h4>
 							<hr class="star-primary">
-							<p>Implemented platform APIs for HP Oneview, which enabled clients and partners to control the configuration of blade servers.</p>
-<p>Devised Linux and Python scripts to ensure replication of data over the nodes which helped in making the system highly available.
-</p>
-							
+							<p>Implemented platform APIs for HP Oneview, which enabled
+								clients and partners to control the configuration of blade
+								servers.</p>
+							<p>Devised Linux and Python scripts to ensure replication of
+								data over the nodes which helped in making the system highly
+								available.</p>
+
 							<ul class="list-inline item-details">
 
 								<li>Start Date: <strong>May 2015 </strong>
@@ -984,11 +1210,12 @@ It also allows companies and organizations and individuals with newsworthy news 
 								<li>Service: <strong>Web Development, Distributed
 										Systems & Data Center</strong>
 								</li>
-								<li>Skills: <strong>Java Spring and Hibernate, PostgreSQL, Python, Shell scripts, JavaScript, HTML, Kafka</strong>
+								<li>Skills: <strong>Java Spring and Hibernate,
+										PostgreSQL, Python, Shell scripts, JavaScript, HTML, Kafka</strong>
 								</li>
 							</ul>
 							<button type="button" class="btn btn-default"
-								data-dismiss="modal">
+																data-dismiss="modal">
 								<i class="fa fa-times"></i> Close
 							</button>
 						</div>
@@ -997,9 +1224,9 @@ It also allows companies and organizations and individuals with newsworthy news 
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="portfolio-modal modal fade" id="miModal" tabindex="-1"
-		role="dialog" aria-hidden="true">
+										role="dialog" aria-hidden="true">
 		<div class="modal-content">
 			<div class="close-modal" data-dismiss="modal">
 				<div class="lr">
@@ -1012,15 +1239,19 @@ It also allows companies and organizations and individuals with newsworthy news 
 						<div class="modal-body">
 							<h2>Engineer-II, MFG-IT</h2>
 							<h4>
-								<a
-									href="https://www.maximintegrated.com">Maxim Integrated</a>
+								<a href="https://www.maximintegrated.com">Maxim Integrated</a>
 							</h4>
 							<hr class="star-primary">
-							<p>Introduced Agile framework and collaborated with stakeholders as the Scrum Master, reducing the project delivery time by 10%.</p>
-<p>	Implemented a Factory Automation Suite comprising of a cloud based master engine controlling & managing slave applications.</p>
-<p>Devised custom ETL scripts for the cleansing and validation of the data, which reduced the loading errors by 13%.
-</p>
-							
+							<p>Introduced Agile framework and collaborated with
+								stakeholders as the Scrum Master, reducing the project delivery
+								time by 10%.</p>
+							<p>Implemented a Factory Automation Suite comprising of a
+								cloud based master engine controlling & managing slave
+								applications.</p>
+							<p>Devised custom ETL scripts for the cleansing and
+								validation of the data, which reduced the loading errors by 13%.
+							</p>
+
 							<ul class="list-inline item-details">
 
 								<li>Start Date: <strong>June 2011 </strong>
@@ -1030,11 +1261,12 @@ It also allows companies and organizations and individuals with newsworthy news 
 								<li>Service: <strong>Web Development & Distributed
 										Systems</strong>
 								</li>
-								<li>Skills: <strong>Java, REST, Oracle, Python, Shell scripts, JavaScript, HTML, ActiveMQ, SVN</strong>
+								<li>Skills: <strong>Java, REST, Oracle, Python,
+										Shell scripts, JavaScript, HTML, ActiveMQ, SVN</strong>
 								</li>
 							</ul>
 							<button type="button" class="btn btn-default"
-								data-dismiss="modal">
+																data-dismiss="modal">
 								<i class="fa fa-times"></i> Close
 							</button>
 						</div>
@@ -1053,7 +1285,7 @@ It also allows companies and organizations and individuals with newsworthy news 
 
 	<!-- Plugin JavaScript -->
 	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+										src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
 	<!-- Contact Form JavaScript -->
 	<script src="resources/js/jqBootstrapValidation.js"></script>
@@ -1062,7 +1294,8 @@ It also allows companies and organizations and individuals with newsworthy news 
 	<!-- Theme JavaScript -->
 	<script src="resources/js/freelancer.min.js"></script>
 
-</body>
+
+								</body>
 
 </html>
 

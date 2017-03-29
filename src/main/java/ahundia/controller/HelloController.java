@@ -24,6 +24,7 @@ import java.util.Properties;
 @Controller
 public class HelloController {
 
+	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
 
