@@ -947,6 +947,8 @@
 							<h4>
 								<img src="resources/img/kv_storage.png"
 									class="img-responsive img-centered" alt="">
+									<img src="resources/img/Project1.jpg"
+									class="img-responsive img-centered" alt="">
 							</h4>
 							<hr class="star-primary">
 							<p>Storing, processing and analyzing this data is an enormous
@@ -1016,6 +1018,8 @@
 							<h4>Cloud computing</h4>
 							<h4>
 								<img src="resources/img/Task1.jpg"
+									class="img-responsive img-centered" alt="">
+									<img src="resources/img/kafka.jpg"
 									class="img-responsive img-centered" alt="">
 							</h4>
 							<hr class="star-primary">
