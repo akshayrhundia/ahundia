@@ -71,7 +71,7 @@
 					<span class="sr-only">Toggle navigation</span> Menu <i
 						class="fa fa-bars"></i>
 				</button>
-				<a class="navbar-brand" href="#page-top">Akshay Hundia</a>
+				<a class="navbar-brand" style="margin-left:-25px" href="#page-top">Akshay Hundia</a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
@@ -127,13 +127,32 @@
 					<hr class="star-primary">
 				</div>
 			</div>
-			<div class="row">
+			<div class="col-sm-4 portfolio-item">
+			</div>
+			<div class="col-sm-4 portfolio-item">
+					<div style="vertical-align: middle; text-align: center; max-width:350px; margin-top:10px;">
+						<img src="resources/img/slb.jpg" class="img-responsive" alt=""
+							style="display: block; margin-left: auto; margin-right: auto;">
+						<br />
+						<p>
+							<a href="#slbModal" class="portfolio-link" data-toggle="modal">
+
+								Cloud & Data Infrastructure Engineer</a>
+						</p>
+
+						
+					</div>
+
+				</div>
+			<div class="col-sm-4 portfolio-item">
+			</div>
+			<!-- <div class="row">
 				<div class="col-sm-4 portfolio-item">
-					<!--   <div class="caption">
+					  <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
-                        </div> -->
+                        </div>
 					<div style="vertical-align: middle; text-align: center;">
 						<img src="resources/img/cmu.jpeg" class="img-responsive" alt=""
 							style="display: block; margin-left: auto; margin-right: auto;">
@@ -184,7 +203,7 @@
 
 				</div>
 
-			</div>
+			</div> -->
 		</div>
 	</section>
 	<!-- About Section -->
@@ -431,59 +450,120 @@
 						class="img-responsive" alt="" height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;>
 					</a>
 				</div> -->
-				<div class="col-sm-4 portfolio-item">
-					<a href="#samModal" class="portfolio-link" data-toggle="modal">
-						<!-- <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>--> <img src="resources/img/samsung.jpg"
-						class="img-responsive" alt=""
-						style="height: 130px; width: 300px; display: block; margin-left: auto; margin-right: auto;" />
-					</a>
-					<h4 style="text-align: center;">Lead Engineer</h4>
+				<div class="col-sm-3 portfolio-item">
+					 <div style="vertical-align: middle; text-align: center;">
+						<img src="resources/img/cmu.jpeg" class="img-responsive" alt=""
+							style="display: block; margin-left: auto; margin-right: auto;">
+						<br />
+						<p>
+							<a href="#raModal" class="portfolio-link" data-toggle="modal">
+
+								Research Assistant </a>
+						</p>
+
+						<a href="https://www.cylab.cmu.edu">Cylab</a>
+					</div>
 
 				</div>
-				<div class="col-sm-4 portfolio-item">
-					<a href="#hpeModal" class="portfolio-link" data-toggle="modal">
-						<!-- <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>--> <img src="resources/img/hpe.jpg"
-						class="img-responsive" alt=""
-						style="height: 130px; width: 300px; display: block; margin-left: auto; margin-right: auto;">
-					</a>
-					<h4 style="text-align: center;">Software Engineer II</h4>
+				<!-- <div class="col-sm-3 portfolio-item">
+					<div style="vertical-align: middle; text-align: center;">
+						<img src="resources/img/cmu.jpeg" class="img-responsive" alt=""
+							style="display: block; margin-left: auto; margin-right: auto;">
+						<br />
+						<p>
+							<a href="#tadModal" class="portfolio-link" data-toggle="modal">
+
+								Teaching Assistant </a>
+						</p>
+
+						<a
+							href="http://www.heinz.cmu.edu/academic-resources/course-results/course-details/index.aspx?cid=295">Distributed
+							Systems</a>
+					</div>
 
 				</div>
-				<div class="col-sm-4 portfolio-item">
-					<a href="#miModal" class="portfolio-link" data-toggle="modal">
-						<!-- <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>--> <img src="resources/img/mi.jpeg"
-						class="img-responsive" alt=""
-						style="height: 130px; width: 300px; display: block; margin-left: auto; margin-right: auto;">
-					</a>
-					<h4 style="text-align: center;">Engineer II, MFG-IT</h4>
+				<div class="col-sm-3 portfolio-item">
+
+					<div style="vertical-align: middle; text-align: center;">
+						<img src="resources/img/cmu.jpeg" class="img-responsive" alt=""
+							style="display: block; margin-left: auto; margin-right: auto;">
+						<br />
+						<p>
+							<a href="#tajModal" class="portfolio-link" data-toggle="modal">
+
+								Teaching Assistant </a>
+						</p>
+
+						<a
+							href="http://www.heinz.cmu.edu/academic-resources/course-results/course-details/index.aspx?cid=302">Intermediate
+							Java II</a>
+					</div> 
+
+				</div>-->
+				
+				<div class="col-sm-3 portfolio-item">
+
+					<div style="vertical-align: middle; text-align: center;">
+						<img src="resources/img/samsung.jpg" class="img-responsive" alt=""
+							style="display: block; margin-left: auto; margin-right: auto;">
+						<br />
+						<p style="margin-top:40px;">
+							<a href="#samModal" class="portfolio-link" data-toggle="modal">
+
+								Lead Engineer </a>
+						</p>
+
+						<a
+							href="http://www.samsung.com/in/aboutsamsung/home/">Samsung Research and Development Institute </a>
+					</div> 
 
 				</div>
-				<!-- <div class="col-sm-4 portfolio-item">
-					<a href="#portfolioModal5" class="portfolio-link"
-						data-toggle="modal"> <!--<div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div> <img src="resources/img/da.jpg"
-						class="img-responsive" alt="" height:230px;width:400px;display: block; margin-left: auto; margin-right: auto;>
-					</a>
-				</div> -->
+				<div class="col-sm-3 portfolio-item">
+
+					<div style="vertical-align: middle; text-align: center;">
+						<img src="resources/img/hpe.jpg" class="img-responsive" alt=""
+							style="display: block; margin-left: auto; margin-right: auto;">
+						<br />
+						<p style="margin-top:45px;">
+							<a href="#hpeModal" class="portfolio-link" data-toggle="modal">
+
+								Software Engineer II </a>
+						</p>
+
+						<a
+							href="https://www.hpe.com/us/en/home.html">Hewlett Packard Enterprise </a>
+					</div> 
+
+				</div>
+				<div class="col-sm-3 portfolio-item">
+
+					<div style="vertical-align: middle; text-align: center;">
+						<img src="resources/img/mi.jpeg" class="img-responsive" alt=""
+							style="display: block; margin-left: auto; margin-right: auto;">
+						<br />
+						<p style="margin-top:60px;">
+							<a href="#miModal" class="portfolio-link" data-toggle="modal">
+
+								Engineer II, MFG-IT </a>
+						</p>
+
+						<a
+							href="https://www.maximintegrated.com/en.html">Maxim Integrated </a>
+					</div> 
+
+				</div>
+				
+
+				
+				
+
+				
+				
+				
 
 			</div>
 
-			<div class="container">
+			<div class="container" style="margin-bottom:50px;">
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<h3>
@@ -491,6 +571,7 @@
 						</h3>
 					</div>
 				</div>
+				<br/>
 				<div class="row">
 					<div class="col-sm-4 portfolio-item"></div>
 					<div class="col-sm-4 portfolio-item">
@@ -691,6 +772,47 @@
 		</a>
 	</div>
 
+<!-- Portfolio Modals -->
+	<div class="portfolio-modal modal fade" id="slbModal" tabindex="-1"
+		role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Schlumberger</h2>
+							<h4>
+								<a href="https://www.software.slb.com/delfi">Delfi data ecosystem</a>
+							</h4>
+							<hr class="star-primary">
+							<img src="resources/img/delfi.jpeg"
+								class="img-responsive img-centered" alt="">
+							<p>DELFI is cloud based cognitive solution to enable Machine Learning & Data Analytics on exploration and production data.</p>
+							<p>It is a multi-tenant solution build leveraging Google Cloud Project and SOA architecture.</p>
+							<ul class="list-inline item-details">
+
+								<li>Start Date: <strong>July 2017 </strong>
+								</li>
+								<li>Service: <strong>Cloud & Data Infrastructure
+										 </strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default"
+								data-dismiss="modal">
+								<i class="fa fa-times"></i> Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 	<!-- Portfolio Modals -->
 	<div class="portfolio-modal modal fade" id="raModal" tabindex="-1"
 		role="dialog" aria-hidden="true">
@@ -721,6 +843,7 @@
 							<ul class="list-inline item-details">
 
 								<li>Start Date: <strong>November 2016 </strong>
+								<li>End Date: <strong>May 2017 </strong>
 								</li>
 								<li>Service: <strong>Web Development & Data
 										Analytics </strong>
