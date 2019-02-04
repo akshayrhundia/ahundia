@@ -16,9 +16,19 @@
 
 <title>Akshay Hundia</title>
 
+<!-- jQuery -->
+<script src="resources/vendor/jquery/jquery.min.js"></script>
+
+
 <!-- Bootstrap Core CSS -->
-<link href="resources/vendor/bootstrap/css/bootstrap.min.css"
-	rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <link href="resources/img/profile.png" rel="shortcut icon"
 	type="image/x-icon" />
 <!-- Theme CSS -->
@@ -103,14 +113,14 @@
 					<div class="intro-text">
 						<span class="name">Akshay Hundia</span>
 						<p>
-							<b>Software Engineer with 5 years of experience in designing
+							<b>Software Engineer with 7+ years of experience in designing
 								and developing cutting edge products using Object Oriented
 								Programming. An equally effective problem solver and
 								entrepreneur experienced in creating technological solutions to
-								solve real world issues. </b>
+								solve real world issues. My current focus area is building cloud based enterprise solutions.</b>
 						</p>
 						<hr class="star-light">
-						<span class="skills">Product developer & Back-end expert</span>
+						<span class="skills">Backend Stack (Micro-services) | Cloud Application | Blockchain developer</span>
 						<p>Cloud and Distributed Systems</p>
 					</div>
 				</div>
@@ -130,7 +140,7 @@
 			<div class="col-sm-4 portfolio-item">
 			</div>
 			<div class="col-sm-4 portfolio-item">
-					<div style="vertical-align: middle; text-align: center; max-width:350px; margin-top:10px;">
+					<div style="vertical-align: middle; text-align: center; max-width:350px; margin-top:25%; margin-bottom:25%;">
 						<img src="resources/img/slb.jpg" class="img-responsive" alt=""
 							style="display: block; margin-left: auto; margin-right: auto;">
 						<br />
@@ -140,7 +150,9 @@
 								Cloud & Data Infrastructure Engineer</a>
 						</p>
 
-						
+						<a href="#slbModal"  data-toggle="modal">
+
+                        								What I do at Schlumberger?</a>
 					</div>
 
 				</div>
@@ -216,21 +228,22 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 col-lg-offset-2">
+				<div class="col-lg-6">
+				<img src="resources/img/cmu.jpeg" class="img-responsive" alt=""
+                							style="display: block; margin-left: auto; margin-right: auto;">
+                						<br />
 					<p>
 						<b>Master of Information Systems Management (May, 2017)</b>
 					</p>
-					<p>Carnegie Mellon University</p>
-					<p>Pittsburgh, PA (USA)</p>
 				</div>
 				<div class="col-lg-6">
-					<p>
+				    <img src="resources/img/daiict.png" class="img-responsive" alt=""
+                                							style="display: block; margin-left: auto; margin-right: auto;">
+                                						<br />
+					<p style='text-align:center;'>
 						<b>Bachelor of Technology in Information and Communication
 							Technology (May, 2011)</b>
 					</p>
-					<p>Dhirubhai Ambani Institute of Information and Communication
-						Technology</p>
-					<p>Gandhinagar, GUJ (INDIA)</p>
 				</div>
 				<div class="col-lg-8 col-lg-offset-2 text-center">
 					<!-- <a href="resources/files/unofficial_academic_record-Fall.pdf" download class="btn btn-lg btn-outline"> <i
@@ -364,7 +377,7 @@
 	</section>
 	<!-- About Section -->
 	<section class="success" id="skills">
-		<div class="container">
+		<div class="container" style="padding-top:5%;padding-bottom:5%;">
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h2>Skills</h2>
@@ -604,7 +617,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-12">
-					<p>Collaborating with Pittsburgh Port Authority, as a member of
+					<p>Collaborated with Pittsburgh Port Authority, as a member of
 						'Students for Urban Data Systems', to improve public bus services.
 					</p>
 				</div>
@@ -783,9 +796,13 @@
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
+					<div class="col-lg-3>
 						<div class="modal-body">
 							<h2>Schlumberger</h2>
+						<hr/>
+						<br/>
+
+						<div class="col-md-6">
 							<h4>
 								<a href="https://www.software.slb.com/delfi">Delfi data ecosystem</a>
 							</h4>
@@ -793,7 +810,26 @@
 							<img src="resources/img/delfi.jpeg"
 								class="img-responsive img-centered" alt="">
 							<p>DELFI is cloud based cognitive solution to enable Machine Learning & Data Analytics on exploration and production data.</p>
-							<p>It is a multi-tenant solution build leveraging Google Cloud Project and SOA architecture.</p>
+							<p>It is a multi-tenant solution build leveraging Google Cloud Project and SOA architecture. This platform has enabled end users to extract meaningful information from their data.</p>
+
+                        </div>
+                        <div class="col-md-6" style='text-align:left;'>
+                            <h4>My Contribution</h4>
+                            <b>Technology:</b>Java and Python,Google compute engine,Google datastore,Google App Engine,Google Dataflow,Google Stackdriver,Redis/Memcache,Key Management System,Kubernetes,Hyperledger composer / Blockchain
+                            <br/><br/>
+
+                            <b>Role:</b>Cloud Software Engineer responsible for building foundation micro-services for the new cloud-based (multi-tenant) cognitive E&P environment called DELFI.
+                            <br/><br/>
+
+                            <b>Responsibilities:</b>
+                            <ul style='text-align:left;'>
+                            <li> Implemented core APIs for DELFI Datalake, which enabled ingestion and discovery of large, fluid and unstructured data into the datalake.</li>
+                            <li>Designed and built micro-services for data indexing in an efficient manner which provided fast data access to end users.</li>
+                            <li>Implemented record level authorization which provided fine-grained control for sensitive data.</li>
+                            <li>Implemented search capabilities such as Geo Spacial, Geo Location, Bounding Box etc, which drastically increased the user experience.</li>
+                            <li>Leveraged Hyperledger composer (Blockchain) framework for implementing POC for data trading platform.</li>
+                            </ul>
+
 							<ul class="list-inline item-details">
 
 								<li>Start Date: <strong>July 2017 </strong>
@@ -1404,11 +1440,6 @@
 	</div>
 
 
-	<!-- jQuery -->
-	<script src="resources/vendor/jquery/jquery.min.js"></script>
-
-	<!-- Bootstrap Core JavaScript -->
-	<script src="resources/vendor/bootstrap/js/bootstrap.min.js"></script>
 
 	<!-- Plugin JavaScript -->
 	<script
